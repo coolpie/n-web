@@ -6,7 +6,7 @@ var	fs 	   = require('fs')
   , path   = require('path');
 
 /*
-*Create the Server object.
+*  Create the Server object and setting default properties of Server.
 */
 Server = function(rootPath,header){
 	/*
@@ -19,10 +19,16 @@ Server = function(rootPath,header){
     for(var i in this.defaultHeaders){
     	this.options.headers[k] = header[k] || defaultHeaders[k];
     };
+};
 
-    /*
-	*
-    */
+/*
+*  Start the server.
+   @req,res     outter passing request and response.
+*/
+Server.prototype.engine = function(req,res,callback){
+
+
+
 };
 
 //Exports
