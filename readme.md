@@ -17,3 +17,11 @@ such as node-paperboy and antinode.
 + 文件不存在 —— 404 Not Found
 + 文件路径已改变 —— 301
 + 可以使用缓存 —— 304 
+
+
+##Questions in thinking
+
+1. 这个moudle的调用是应该怎样的呢？（显示调用还是自动调用）
+2. 名字好长
+3. 
+
